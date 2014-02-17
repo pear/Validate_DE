@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "pear.neufeind@speedpartner.de",
+            "name": "Stefan Neufeind",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate_DE": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Validate_DE",
+    "include-path": [
+        "./"
+    ],
+    "license": "New BSD",
+    "name": "pear/validate_de",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_DE",
+        "source": "https://github.com/pear/Validate_DE"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
